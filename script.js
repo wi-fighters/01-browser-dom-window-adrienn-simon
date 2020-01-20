@@ -1,7 +1,14 @@
 (() => {
     const promptForGuesses = number => {
-        // initialize attempts to 0 // 3
+        // initialize attempts to 0
+        const attempts = 0;
         // initialize the prompt message "Guess a number between 1 and 10"
+        let userNumber = prompt(`Guess a number between 1 and 10:`);
+
+        while (attempts < 3) {
+
+        }
+
 
         // while (attempts < 3) {
         // prompt the user with the prompt message
